@@ -97,7 +97,7 @@ import w4 from './w4_sweater.jpg'
 import n2 from './n2.webp'
 import s4 from './s4.jpeg'
 import bag_jute from './Bag_jute-pink.jpg'
-import hoodies from './hoodies.jpg'
+import hoodies from './Hoodies.jpg'
 import offer1 from './offer1.png'
 
 export const assets = {
