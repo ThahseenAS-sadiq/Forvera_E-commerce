@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+a.active hr {
+    display: block;
+}
+
+::-webkit-scrollbar{
+display: none;
+}
+
+select,input,textarea{
+  border: 1px solid #c2c2c2;
+  outline-color: #C586A5;
+  border-radius: 4px;
+}
+
+@media (max-width:640px) {
+  a.active {
+    background-color: gray;
+    color: white;
+  }
+}
+

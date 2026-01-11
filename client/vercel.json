@@ -1,0 +1,17 @@
+{
+  "routes": [
+    { "src": "/(.*)", "dest": "/" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://*.clerk.dev https://*.clerk.com https://vercel.live; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; frame-src https://*.clerk.dev https://*.clerk.com; connect-src 'self' https://*.clerk.dev https://*.clerk.com https://YOUR-BACKEND-NAME.onrender.com;"
+        }
+      ]
+    }
+  ]
+}
+
