@@ -1,6 +1,6 @@
 {
-  "routes": [
-    { "src": "/(.*)", "dest": "/" }
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
   ],
   "headers": [
     {
@@ -8,10 +8,11 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://*.clerk.dev https://*.clerk.com https://vercel.live; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; frame-src https://*.clerk.dev https://*.clerk.com; connect-src 'self' https://*.clerk.dev https://*.clerk.com https://YOUR-BACKEND-NAME.onrender.com;"
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://*.clerk.dev https://*.clerk.com https://vercel.live; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; frame-src https://*.clerk.dev https://*.clerk.com; connect-src 'self' https://*.clerk.dev https://*.clerk.com https://forvera-backend.onrender.com;"
         }
       ]
     }
   ]
 }
+
 
