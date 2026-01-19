@@ -3,8 +3,6 @@
 🌐 **Live Frontend:**  
 https://forvera-e-commerce-xxv6.vercel.app/
 
-⚙️ **Live Backend (Render):**  
-https://forvera-backend.onrender.com/
 
 Forvera is a **full-stack MERN e-commerce application** with **User and Admin panels**, built using **React, Node.js, Express, MongoDB**, and **Clerk Authentication**.  
 The backend is deployed on **Render**, and the frontend is deployed on **Vercel**.
